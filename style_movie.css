@@ -1,0 +1,136 @@
+
+body{
+    color: white;
+    background-color: #222;
+    font-family: 'Fredoka One', cursive;
+}
+
+.form-group{
+    margin-bottom: 0.75rem;
+}
+
+h1{
+    display: inline-block;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: crimson;
+}
+
+h1:hover{
+    color: white;
+}
+
+/* Styling the inputValue */
+#inputValue{
+    width: 45rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.375rem 0.75rem;
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+    border: 2px solid rgb(192, 185, 185);
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: black;
+    outline: none;
+}
+
+#inputValue:hover{
+    border: 2px solid white;
+    background-color: rgb(245, 180, 193);
+}
+
+/* Styling the Search Button */
+#search{
+    color: white;
+    background-color: crimson;
+    font-size: 1.25rem;
+    outline: none;
+    text-align: center;
+    min-height: 2.5rem;
+    padding: 0.375rem 0.75rem;
+    line-height: 0.5;
+    cursor: pointer;
+    border: 1rem;
+    font-weight: 400;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#search:hover{
+    border: 2px solid crimson;
+    background: transparent;
+    color: crimson;
+    transition: 1ms ease-in-out;
+}
+
+.movieSearchable{
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.movie{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* section styling */
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+section img{
+    width: 200px;
+    transition: 250ms ease-in-out;
+}
+
+img:hover{
+    margin-left: 0 40px;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0 1rem 3rem 1.05rem rgb(236, 230, 230);
+}
+
+/* Content styling */
+
+.content{
+    border: 2px solid lightgrey;
+    display: none;
+    padding: 15px;
+}
+
+#content-close{
+    cursor: pointer;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    background: crimson;
+    color: black;
+    border-radius: 100%;
+    font-weight: 700;
+}
+
+#content-close:hover{
+    color: crimson;
+    background: transparent;
+    border: 2px solid crimson;
+}
+
+.content div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.content-display{
+    display: block;
+}
